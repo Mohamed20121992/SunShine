@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="locationkey" translatable="false">location</string>
+    <string name="locationdefault" translatable="false">cairo</string>
+    <string name="unitskey" translatable="false">units</string>
+    <string name="unitsdefault" translatable="false">metric</string>
+    <string name="dayskey" translatable="false">days</string>
+    <string name="daysdefault" translatable="false">one week</string>
+    <string-array name="myowntemp">
+        <item>metric</item>
+        <item>kelvin</item>
+        <item>fahriye</item>
+    </string-array>
+    <string-array name="myowntempcity">
+        <item>baniseuf</item>
+        <item>alex</item>
+        <item>cairo</item>
+        <item>mansoura</item>
+    </string-array>
+    <string-array name="myowndays">
+        <item>one week</item>
+        <item>two week</item>
+
+
+    </string-array>
+    <string name="send_to">mmmmmm</string>
+</resources>

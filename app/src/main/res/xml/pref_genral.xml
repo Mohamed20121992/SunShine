@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title=" Genral Setting"
+
+        >
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="baniseuf"
+        android:title="Location"
+        android:entries="@array/myowntempcity"
+        android:entryValues="@array/myowntempcity"
+        android:key="@string/locationkey"
+        />
+    <ListPreference
+        android:defaultValue="@string/unitsdefault"
+        android:title="Units"
+        android:entries="@array/myowntemp"
+        android:entryValues="@array/myowntemp"
+        android:key="@string/unitskey" />
+    <ListPreference
+        android:defaultValue="one week"
+        android:title="Days"
+        android:entries="@array/myowndays"
+        android:entryValues="@array/myowndays"
+        android:key="@string/dayskey" />
+
+
+</PreferenceScreen>
